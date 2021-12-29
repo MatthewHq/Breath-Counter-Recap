@@ -1,18 +1,18 @@
-## Getting Started
+# Breathe Counter Recap
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Reason / Story
 
-## Folder Structure
+Jan2020 Had a dog at the time who was terminally ill with congestive heart failure, required constant monitoring / measuring of breathes per minute. Iphone and Android app options were inefficient and cumbersome with lack of simple fluid functionality. 
 
-The workspace contains two folders by default, where:
+**In about an hour designed this Java application to suit my monitoring needs.**
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Design
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Designed with a static dimensions for quick implementation to fit an extra windows tablet I had lying around to serve as the measuring device. 
+  - Giant "COUNT" button to easily click while eyes are away from the device and on breathing subject.
+  - "Average" breathing rate in breathes per minute displayed as measurements are taken
+  - Average of only the last 5 | 10 measurements also displayed for continuous but relevant measuring as breathes per minute changes "locally"
+  - Additional data window displayed on the side with breathe count ID, time in seconds, and breathes per minute of the individual breathe speed associated with ID
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![image](https://i.imgur.com/nh4Lug5.png)
