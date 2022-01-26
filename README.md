@@ -1,10 +1,11 @@
 # Breath Counter Recap
 
 ### Reason / Story
+**In about an hour designed this Java application to suit my monitoring needs.**
 
 Jan2020 Had a dog at the time who was terminally ill with congestive heart failure, required constant monitoring / measuring of breaths per minute. Iphone and Android app options were inefficient and cumbersome with lack of simple fluid functionality. 
 
-**In about an hour designed this Java application to suit my monitoring needs.**
+
 
 ### Design
 
